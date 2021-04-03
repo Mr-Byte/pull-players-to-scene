@@ -3,7 +3,7 @@
     "title": "Pull Players to Scene",
     "description": "Adds a context menu option on scenes to open a dialog to select players to pull to a scene.",
     "author": "MrByte",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "minimumCoreVersion": "0.7.9",
     "compatibleCoreVersion": "0.7.9",
     "languages": [
@@ -21,7 +21,7 @@
         "css/pull-to-scene.css"
     ],
     "url": "https://github.com/Mr-Byte/pull-players-to-scene",
-    "download": "https://github.com/Mr-Byte/pull-players-to-scene/archive/v1.0.1.zip",
+    "download": "https://github.com/Mr-Byte/pull-players-to-scene/archive/v1.0.2.zip",
     "manifest": "https://raw.githubusercontent.com/Mr-Byte/pull-players-to-scene/main/module.json",
     "bugs": "https://github.com/Mr-Byte/pull-players-to-scene/issues",
     "allowBugReporter": true,

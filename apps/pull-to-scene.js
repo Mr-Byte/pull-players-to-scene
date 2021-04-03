@@ -33,7 +33,7 @@ export class PullToSceneApplication extends Application {
 
     async pullToScene() {
         for (const userId of this.selecteduserIds) {
-            await this.selecteduserIds.map(userId => game.socket.emit("pullToScene", this.scene.data._id, userId));
+            await game.socket.emit("pullToScene", this.scene.data._id, userId);
         }
 
         this.close();
