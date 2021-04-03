@@ -32,7 +32,10 @@ export class PullToSceneApplication extends Application {
     }
 
     async pullToScene() {
-        await Promise.all(this.selecteduserIds.map(userId => game.socket.emit("pullToScene", this.scene.data._id, userId)));
+        for (const userId of this.selecteduserIds) {
+            await this.selecteduserIds.map(userId => game.socket.emit("pullToScene", this.scene.data._id, userId));
+        }
+
         this.close();
     }
 
