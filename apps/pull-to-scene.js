@@ -33,13 +33,13 @@ export class PullToSceneApplication extends Application {
 
     async pullToScene() {
         for (const userId of this.selecteduserIds) {
-            await game.socket.emit("pullToScene", this.scene.data._id, userId);
+            await game.socket.emit("pullToScene", this.scene.id, userId);
         }
 
         this.close();
     }
 
-    selectuser(userId, isSelected) {
+    selectUser(userId, isSelected) {
         if (isSelected) {
             this.selecteduserIds.push(userId);
         } else {
@@ -55,7 +55,7 @@ export class PullToSceneApplication extends Application {
         $(".dialog-button.pull", html).click($.proxy(this.pullToScene, this));
 
         $(".user-select", html).change(function () {
-            self.selectuser(this.id, this.checked);
+            self.selectUser(this.id, this.checked);
         });
     }
 }
