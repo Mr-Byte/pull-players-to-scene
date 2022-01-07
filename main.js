@@ -17,5 +17,5 @@ Hooks.on("getSceneNavigationContext", (_, contextOptions) => {
 });
 
 Hooks.on("getSceneDirectoryEntryContext", (_, contextOptions) => {
-    contextOptions.push(getContextOption('entityId'));
+    contextOptions.push(getContextOption('documentId'));
 });

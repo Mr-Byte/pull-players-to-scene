@@ -1,3 +1,8 @@
+# v1.1.1
+
+* Fix a bug with pulling players to scenes from the Scene Directory
+* Mark the mod as compatible with V9
+
 # v1.1.0
 
 This version fixes a deprecation warning for 0.8.6+
