@@ -1,5 +1,6 @@
 {
     "id": "pull-players-to-scene",
+    "name": "pull-players-to-scene",
     "title": "Pull Players to Scene",
     "description": "Adds a context menu option on scenes to open a dialog to select players to pull to a scene.",
     "authors": [
