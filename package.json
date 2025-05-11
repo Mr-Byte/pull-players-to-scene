@@ -1,0 +1,41 @@
+{
+    "name": "pull-players-to-scene",
+    "version": "2.0.0",
+    "description": "Foundry VTT Module",
+    "directories": {
+        "lib": "lib"
+    },
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Mr-Byte/pull-players-to-scene.git"
+    },
+    "author": "Mr. Byte",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc && vite build",
+        "lint": "eslint"
+    },
+    "sideEffects": [
+        "./src/module.ts"
+    ],
+    "bugs": {
+        "url": "https://github.com/Mr-Byte/pull-players-to-scene/issues"
+    },
+    "homepage": "https://github.com/Mr-Byte/pull-players-to-scene#readme",
+    "devDependencies": {
+        "@eslint/js": "^9.26.0",
+        "@eslint/json": "^0.12.0",
+        "@typescript-eslint/eslint-plugin": "^8.32.0",
+        "@typescript-eslint/parser": "^8.32.0",
+        "eslint": "^9.26.0",
+        "eslint-config-prettier": "^10.1.5",
+        "eslint-plugin-jest": "^28.11.0",
+        "eslint-plugin-prettier": "^5.4.0",
+        "fvtt-types": "github:League-of-Foundry-Developers/foundry-vtt-types#main",
+        "rollup-plugin-copy": "^3.5.0",
+        "typescript": "^5.8.3",
+        "typescript-eslint": "^8.32.0",
+        "vite": "^6.3.5"
+    }
+}

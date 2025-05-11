@@ -1,0 +1,31 @@
+<div class="dialog-content">
+    <header
+        class="pull-player-to-scene-header"
+        style="background-image: url('{{thumb}}'); overflow:hidden;"
+    >
+        <h3 class="pull-player-to-scene-title">{{sceneName}}</h3>
+    </header>
+
+    <h3
+        style="padding-top: 4px; padding-bottom: 4px; margin-top: 0px; margin-bottom: 0px"
+    >{{localize "pull-players-to-scene.players"}}</h3>
+    <ul class="item-list">
+        {{#each users}}
+
+            <li class="items-header flexrow user">
+                <label for="{{this.id}}" style="display: inline">
+                    <input
+                        class="user-select"
+                        name="player"
+                        type="checkbox"
+                        id="{{this.id}}"
+                    />
+                    <span class="pull-player-to-scene-player">
+                        {{this.name}}
+                    </span>
+                </label>
+            </li>
+
+        {{/each}}
+    </ul>
+</div>

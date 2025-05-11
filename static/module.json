@@ -1,21 +1,18 @@
 {
     "id": "pull-players-to-scene",
-    "name": "pull-players-to-scene",
     "title": "Pull Players to Scene",
     "description": "Adds a context menu option on scenes to open a dialog to select players to pull to a scene.",
     "authors": [
         {
-            "name": "MrByte"
+            "name": "MrByte",
+            "url": "https://github.com/Mr-Byte/fast-flip/"
         }
     ],
-    "author": "MrByte",
-    "version": "1.1.2",
+    "version": "2.0.0",
     "compatibility": {
-        "minimum": "0.8.6",
-        "verified": 10
+        "minimum": 13,
+        "verified": 13
     },
-    "minimumCoreVersion": "0.8.6",
-    "compatibleCoreVersion": "9",
     "languages": [
         {
             "lang": "en",
@@ -23,16 +20,11 @@
             "path": "lang/en.json"
         }
     ],
-    "esmodules": [
-        "main.js"
-    ],
-    "styles": [
-        "css/pull-to-scene.css"
-    ],
+    "esmodules": ["module.js"],
+    "styles": ["css/pull-to-scene.css"],
     "url": "https://github.com/Mr-Byte/pull-players-to-scene",
-    "download": "https://github.com/Mr-Byte/pull-players-to-scene/archive/v1.1.2.zip",
-    "manifest": "https://raw.githubusercontent.com/Mr-Byte/pull-players-to-scene/main/module.json",
+    "download": "https://github.com/Mr-Byte/pull-players-to-scene/releases/latest/download/pull-players-to-scene.zip",
+    "manifest": "https://github.com/Mr-Byte/pull-players-to-scene/releases/latest/download/module.json",
     "bugs": "https://github.com/Mr-Byte/pull-players-to-scene/issues",
-    "allowBugReporter": true,
     "license": "MIT"
 }
